@@ -5,7 +5,7 @@ import requests
 def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info("Iniciando execução da função HttpTriggerOnvio")
 
-    token_url = "https://hubnexxo.sharepoint.com/sites/.../token.txt"
+    token_url = "https://hubnexxo-my.sharepoint.com/:t:/g/personal/anderson_santana_hubnexxo_com_br/ERyPNOZAYTRPiEj1NAV8GCAByju3EZp-Fw54KzzedptMCw?e=NMuCwd"
 
     try:
         logging.info("Buscando token do SharePoint...")
