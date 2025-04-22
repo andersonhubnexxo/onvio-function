@@ -6,7 +6,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info("Iniciando execução da função HttpTriggerOnvio")
 
     # URL do token no GitHub (RAW)
-    token_url = "https://raw.githubusercontent.com/andersonhubnexxo/token-onvio/refs/heads/main/token.txt"  # 🔁 Substitua!
+    token_url = "https://raw.githubusercontent.com/andersonhubnexxo/token-onvio/main/token.txt"  # 🔁 Substitua!
 
     try:
         logging.info("Buscando token no GitHub...")
