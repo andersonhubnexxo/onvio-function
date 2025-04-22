@@ -17,7 +17,7 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         logging.info(f"Token recebido com {len(token)} caracteres")
 
         api_url = "https://onvio.com.br/api/br-payroll-sr/v1/interns-registrations"
-        headers = { "Authorization": f"UDSLongToken {token}" }
+        headers = { "Authorization": f"UDSLongToken 8016A38B609545C789A119287587AA08" }
 
         logging.info("Chamando API da Onvio...")
         resp = requests.get(api_url, headers=headers)
